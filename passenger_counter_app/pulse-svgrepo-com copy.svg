@@ -1,0 +1,14 @@
+
+<svg width="934px" height="247px" viewBox="0 0 934 247" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(1.000000, 1.000000)">
+            <ellipse id="Oval" stroke="#979797" fill="#D8D8D8" cx="143.616379" cy="122.5" rx="143.616379" ry="122.5"></ellipse>
+            <line x1="286.730603" y1="142.430556" x2="635.226293" y2="142.430556" id="Line" stroke="#979797" fill="#D8D8D8"></line>
+            <rect id="Rectangle" stroke="#979797" fill="#D8D8D8" x="634.724138" y="68.0555556" width="297.275862" height="127.361111"></rect>
+            <text id="Test" font-family="Helvetica" font-size="12" font-weight="normal" fill="#000000">
+                <tspan x="127.596983" y="126.5">Test</tspan>
+            </text>
+            <polygon id="Star" stroke="#979797" fill="#D8D8D8" points="311.336207 160.416667 293.626643 168.22793 297.008868 151.683409 282.68153 139.966515 302.481425 137.552702 311.336207 122.5 320.190989 137.552702 339.990884 139.966515 325.663545 151.683409 329.045771 168.22793"></polygon>
+        </g>
+    </g>
+</svg>

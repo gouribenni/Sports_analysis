@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Fetch API Example</title>
+</head>
+<body>
+  <h1>Fetch API Example</h1>
+  
+  <div id="my-data"></div>
+  
+  <script>
+    // Retrieve the data from the REST API
+    fetch('api')
+      .then(response => response.json())
+      .then(data => {
+        // Print the data in an HTML element
+        const div = document.getElementById('my-data');
+        div.innerText = JSON.stringify(data);
+      })
+      .catch(error => console.error(error));
+  </script>
+</body>
+</html>

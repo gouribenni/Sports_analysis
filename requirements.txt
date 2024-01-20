@@ -1,0 +1,49 @@
+#python3 -m venv venv
+#python -m venv myworld
+#source myworld/bin/activate (To acticate)
+#python -m pip install ipykernel -U --force-reinstall
+#Install Django
+Django
+#source venv/bin/activate
+#python3 -m ipykernel install --user --name=myproject
+pandas==1.4.4 
+
+sqlalchemy==1.4.39
+
+#conda install jupyter
+
+#django-admin --version
+
+#django-admin startproject my_tennis_club
+
+#py manage.py runserver
+#aws cli
+#curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"                                                            
+#sudo installer -pkg AWSCLIV2.pkg -target /
+# aws configure
+psycopg2-binary
+#s3fs moto
+#boto3 moto
+pyarrow
+configParser
+pipenv
+django-debug-toolbar
+djangocms-installer
+#export POSTGRES_HOME=/Applications/Postgres.app/Contents/Versions/latest
+#export PATH=${POSTGRES_HOME}/bin:${PATH}
+#python manage.py inspectdb --database sports_analysis > models.py~
+#python manage.py migrate movies --database movies
+#python manage.py makemigrations movies    
+#pipenv --venv
+Pillow
+django_rest_framework
+pandas-profiling 
+ipywidgets
+scikit-learn
+plotly
+missingno
+category_encoders
+xgboost
+#--upgrade nbformat
+ipykernel
+jupyter

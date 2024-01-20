@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <style>
+    table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #DDD;
+}
+
+tr:hover {background-color: #D6EEEE;}
+  </style>
+<head>
+  
+  <!-- <link rel="stylesheet" type="text/css" href="table_design.css">-->
+  <meta charset="utf-8">
+  <title>Fetch API Example</title>
+</head>
+<body>
+  <h1>Fetch API Example</h1>
+
+  <table style="width:100%">
+    <thead>
+    <!-- <tr>
+      <th scope="col">Match ID</th>
+      <th scope="col">Type</th>
+    </tr> -->
+    </thead>
+
+      {% for sts in mymatches %}
+        <tr>
+          <td>{{sts.match_id}} {{sts.match_type}}</td></tr>
+
+        {% endfor %}
+
+
+</table>
+<table class="my-table">
+  <thead>
+  <tr>
+    <th scope="col">Player Name</th>
+    <th cope="col">Team Name</th>
+    
+
+
+  </tr>
+  </thead>
+
+        {% for p in myplayers %}
+      <tr>
+        <td> {{p.player_name}}</td>
+        <td> {{p.team_name_annotate}}</td>
+
+
+      
+      </tr>
+
+      {% endfor %}
+
+
+</table>
+
+  <div id="my-data"></div>
+
+</body>
+</html>

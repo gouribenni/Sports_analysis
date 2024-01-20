@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+data_access_layer/__init__.py
+data_access_layer/postgres_data_read.py
+load/__init__.py
+local_structure.egg-info/PKG-INFO
+local_structure.egg-info/SOURCES.txt
+local_structure.egg-info/dependency_links.txt
+local_structure.egg-info/top_level.txt
